@@ -1,0 +1,332 @@
+/* navbar */
+nav .container .navbar-brand i{
+    color: orange;
+}
+nav .container .nav-item{
+    margin-right: 5%;
+}
+nav .container .collapse{
+    margin-left: 15%;
+}
+.navbar .navbar-brand{
+    font-weight: bolder;
+    font-size: 1.5rem;   
+}
+nav .container .nav-item a{
+    color: black;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+nav .container .nav-item a:hover{
+    color: orange;
+}
+
+/* header */
+header{
+    background-attachment: fixed;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../images/wp4151966.jpg)
+}
+header .header-content h1{
+    color: white;
+}
+header .header-content p{
+    color: white;
+    width: 50%;
+}
+header .header-content button{
+    font-weight: bold;
+    padding-top: 7px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 5rem;
+}
+
+@media screen and (max-width: 767.20px){
+    header .header-content p{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1045.60px){
+    header .header-content{
+        margin-left: 10%;
+    }
+}
+
+/* category */
+#Category .container .row .col-md-6 p{
+    color: #999;
+    width: 77%;
+}
+#Category .container .row .col-md-6 button{
+    font-weight: bold;
+    padding-top: 7px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 5rem;
+    transition: 0.5s;
+    border: black solid;
+    background-color: white;
+}
+#Category .container .row .col-md-6 button:hover{
+background-color: orange;
+color: white;
+}
+#Category .container .row .col-md-6 .icon{
+    font-size: 2rem;
+}
+#Category .container .row .col-md-6 .caption{
+    width: 88%;
+}
+#Category .container .row .col-md-6 .caption p{
+    width: 80%;
+}
+#Category .container .row .col-md-6 .caption h4{
+    margin-bottom: 0;
+    position: relative;
+}
+#Category .container .row .col-md-6 .caption h5{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+#Category .container .row .col-md-6 .caption h4::before{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    width: 5px;
+    height: 30px;
+    right: 108%;
+    top: 218%;  
+}
+#Category .container .row .col-md-6 .icon i{
+    color: whitesmoke;
+    background-color: orange;
+    border: 10px ;
+    border-radius: 50%;
+    padding: 15px;
+}
+@media screen and (max-width: 1285.60px){
+    #Category .container .row .col-md-6 .caption h4::before{
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 991.20px){
+    #Category .container .row .col-md-6 p{
+        width: 95%;
+    }
+    #Category .container .row .col-md-6 .caption p{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767.20px){
+    #Category .container .row .col-md-6{
+        margin-top: 5%;
+    }
+}
+
+
+/* services */
+#Services .caption h3{
+    font-weight: bolder;
+}
+#Services .caption p{
+color: #999;
+width: 45%;
+margin-left: 28%;
+}
+#Services .container .icon{
+    font-size: 3rem;
+ }
+ .container .icon i{
+    border: 5px solid #999;
+    border-radius: 50%;
+    padding: 35px;
+    color: orange;
+}
+#Services .container .row .col-md-3 .bg-white{
+    border-radius: 7%;
+}
+#Services .container .row .col-md-3 .bg-white p{
+    color: #999;
+}
+#Services .container .row .col-md-3 .bg-white h4{
+    font-weight: bolder;
+}
+@media screen and (max-width: 991.20px){
+    #Services .container .row .col-md-3{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 767.20px){
+    #Services .container .row .col-md-3{
+        width: 100%;
+    }
+}
+
+
+/* Intelligence */
+#Intelligence .container .one{
+    width: 35%;
+}
+#Intelligence .container .one .images{
+    position: relative;
+}
+#Intelligence .container .images .layer{
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+#Intelligence .container .images .koks{
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    bottom: 8%;
+    top: 8%;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+#Intelligence .container .images .layer:hover{
+    opacity: 1;
+}
+#Intelligence .container .images .layer i{
+    margin-top: 25%;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#Intelligence .container .images .layer h6{
+    color: white;
+    margin-top: 5%;
+}
+#Intelligence .container .col-md-6 h3{
+    font-weight: bolder;
+    letter-spacing: .2rem;
+}
+#Intelligence .container .col-md-6 p{
+    color: #999;
+    width: 70%;
+}
+#Intelligence .container .col-md-6 button{
+    font-weight: bold;
+    padding-top: 7px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 5rem;
+}
+#Intelligence .container .col-md-6 ul li{
+    font-weight: bold;
+}
+#Intelligence .container .col-md-6 ul{
+    padding-left: 3%;
+}
+@media screen and (max-width: 1199.20px){
+    #Intelligence .container .col-md-6 p{
+        width: 80%;
+    }
+    #Intelligence .container .one{
+        width: 60%;
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width: 991.20px){
+    #Intelligence .container .one{
+        width: 50%;
+        margin-right: 2%;
+    }
+    #Intelligence .container .col-md-6 p{
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width: 767.20px){
+    #Intelligence .container .images .koks{
+        bottom: 7%;
+        top: 7%;
+    }
+}
+
+
+/* news */
+#News .container .col-md-3 h3{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+#News .container .col-md-3 p{
+    color: silver;
+    width: 75%;
+}
+#News .container .col-md-3 h4{
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-top: 4%;
+}
+#News .container .col-md-3 input{
+    width: 70%;
+    border-radius: 2.5rem;
+    color: #999;
+}
+#News .container .col-md-3 .socials ul li{
+    width: 2rem;
+    height: 2rem;
+}
+#News .container .col-md-3 .socials ul{
+    padding-left: 2%;
+}
+#News .container .col-md-3 .socials ul li i{
+    color:#999;
+    transition: 0.5s;
+}
+#News .container .col-md-3 .socials ul li:hover{
+    background-color: orange;
+  
+}
+#News .container .col-md-3 .socials ul li i:hover{
+    color: white;
+}
+@media screen and (max-width: 1199.20px){
+    #News .container .col-md-3 input{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 991.20px){
+    #News .container .col-md-3{
+        width: 50%;
+    }
+    #News .container .col-md-3 input{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 767.20px){
+    #News .container .col-md-3{
+        width: 100%;
+    }
+    #News .container .col-md-3 input{
+        width: 45%;
+    }
+}
+
+
+/* footer */
+.footer-area {
+    background: #05233B none repeat scroll 0 0;
+    padding: 1% ;
+    text-align: center;
+  }
+  .copy-right {
+    color: #999;
+    margin: 0;
+  }
+  .copy-right a {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+  }
